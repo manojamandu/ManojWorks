@@ -1,0 +1,21 @@
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It is a set of practices and techniques used in software development to automate and streamline the process of building, testing, and deploying software changes.
+
+Continuous Integration (CI) refers to the practice of frequently merging code changes from multiple developers into a shared repository. The main goal of CI is to detect integration issues early by automatically building and testing the codebase whenever changes are pushed. This helps identify and resolve issues quickly, ensuring that the software remains in a functional state.
+
+Continuous Deployment (CD) or Continuous Delivery (CD) is the next step after Continuous Integration. It involves automatically deploying the software to production or staging environments after it has passed the CI process. CD ensures that the software changes are automatically deployed to the target environment, reducing manual intervention and speeding up the release process.
+
+The CI/CD process typically involves the following steps:
+
+Code changes: Developers make changes to the codebase and push them to a version control system (e.g., Git).
+
+Continuous Integration: The CI server (e.g., Jenkins, Travis CI) automatically detects the code changes and triggers a build process. This involves compiling the code, running tests, and generating build artifacts.
+
+Test automation: Automated tests (e.g., unit tests, integration tests, and functional tests) are executed to validate the code changes. If any tests fail, developers are notified to fix the issues.
+
+Artifact generation: If all tests pass, the CI server generates deployable artifacts, such as binaries or container images.
+
+Continuous Deployment/Delivery: The artifacts are deployed to the target environment, which could be a staging environment for further testing or directly to production.
+
+Monitoring and feedback: The deployed software is continuously monitored to detect any issues or errors. Feedback is provided to developers, and if necessary, the process starts again with new code changes.
+
+CI/CD helps improve software quality, enables faster and more frequent releases, reduces manual effort, and increases the efficiency of the development and deployment processes. It promotes collaboration, reduces integration problems, and provides faster feedback loops, allowing for rapid iteration and continuous improvement of software applications.
